@@ -1,0 +1,3 @@
+[submodule "can-utils"]
+	path = can-utils
+	url = https://github.com/linux-can/can-utils.git
