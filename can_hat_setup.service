@@ -4,8 +4,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-User=oedo
-ExecStart=/home/oedo/workspace/can_tools/enable_can_hat.sh
+ExecStart=/opt/can_tools/enable_can_hat.sh
 RemainAfterExit=yes
 
 [Install]
